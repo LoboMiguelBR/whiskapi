@@ -24,12 +24,12 @@
     "peerDependencies": {
         "typescript": "^5"
     },
-    "dependencies": {
+   "dependencies": {
        "bun-types": "^1.2.14",
        "undici-types": "^6.21.0",
        "yargs": "^18.0.0",
        "@vercel/node": "^3.2.2"
-    },
+   },
     "bin": {
         "whisk": "./dist/Cli.js"
     },
