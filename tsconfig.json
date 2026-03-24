@@ -1,13 +1,16 @@
-   {
-     "compilerOptions": {
-       "target": "ESNext",
-       "module": "NodeNext",
-       "outDir": "./dist",
-       "declaration": true,
-       "esModuleInterop": true,
-       "skipLibCheck": true,
-       "strict": true,
-       "moduleResolution": "NodeNext"
-     },
-     "include": ["src", "api"]
-   }
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "NodeNext",
+        "outDir": "./dist",
+        "declaration": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "moduleResolution": "NodeNext",
+    },
+    "include": [
+        "src",
+        "api"
+    ]
+}
