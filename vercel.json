@@ -1,5 +1,6 @@
-   {
-     "functions": {
-       "api/**/*.js": { "runtime": "nodejs18.x" }
+     {
+       "buildCommand": "npm run build",
+       "functions": {
+         "api/**/*.js": { "runtime": "nodejs20.x" }
+       }
      }
-   }
